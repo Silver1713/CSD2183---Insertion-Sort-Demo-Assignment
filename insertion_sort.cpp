@@ -14,7 +14,7 @@ void insertionSort(vector<double> &num)
 
   for (int x = 1; x < num.size(); x++)
   {
-    int selected = num[x];
+    double selected = num[x];
     int subindex = x;
 
     for (subindex = x; subindex > 0 && num[subindex - 1] > selected; subindex--)
